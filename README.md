@@ -33,7 +33,7 @@ Run with the explain argument to get a detailed breakdown:
 ```
 
 ## Output
-### Healthy System Example:
+#### Healthy System Example:
 ```yaml
 System Health: Healthy
 CPU Usage: 45%
@@ -41,7 +41,7 @@ Memory Usage: 50%
 Disk Usage: 40%
 ```
 
-### Not Healthy System Example:
+#### Not Healthy System Example:
 ```yaml
 System Health: Not Healthy
 CPU Usage: 75%
@@ -49,7 +49,7 @@ Memory Usage: 65%
 Disk Usage: 50%
 ```
 
-### Explain Mode Example:
+#### Explain Mode Example:
 ```pgsql
 System Health: Not Healthy
 CPU Usage: 75% (Exceeded 60% threshold)
